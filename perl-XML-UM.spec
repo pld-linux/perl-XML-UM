@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	UM
+%define		pdir	XML
+%define		pnam	UM
 Summary:	XML::UM - convert UTF-8 strings to any encoding supported by XML::Encoding
 Summary(pl):	XML::UM - konwersja ³añcuchów z UTF-8 do dowolnego kodowania obs³ugiwanego przez XML::Encoding
 Name:		perl-XML-UM
