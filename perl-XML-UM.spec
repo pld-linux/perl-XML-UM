@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	UM
-Summary:	XML::UM - 
-Summary(pl):	XML::UM - 
+Summary:	XML::UM - convert UTF-8 strings to any encoding supported by XML::Encoding
+Summary(pl):	XML::UM - konwersja ³añcuchów z UTF-8 do dowolnego kodowania obs³ugiwanego przez XML::Encoding
 Name:		perl-XML-UM
 Version:	0.01
 Release:	1
@@ -22,8 +22,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+The XML::UM Perl module provides methods to convert UTF-8 strings to
+any XML encoding that the XML::Encoding manpage supports.
 
-%description -l pl
+#%description -l pl
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -47,8 +49,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%dir %{perl_vendorlib}/XML/UM
 %{perl_vendorlib}/XML/UM.pm
-%{perl_vendorlib}/XML/UM/*.pm
-%{perl_vendorlib}/XML/Handler/*
 %{_mandir}/man3/*
