@@ -15,7 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e4c3fdd46e7ada0f9db326b493058d4d
-BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
@@ -25,7 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The XML::UM Perl module provides methods to convert UTF-8 strings to
 any XML encoding that the XML::Encoding manpage supports.
 
-#%description -l pl
+%description -l pl
+Modu³ Perla XML::UM dostarcza metody do konwersji ³añcuchów UTF-8 do
+dowolnego kodowania XML obs³ugiwanego przez XML::Encoding.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
