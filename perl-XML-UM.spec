@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	UM
 Summary:	XML::UM - convert UTF-8 strings to any encoding supported by XML::Encoding
-Summary(pl):	XML::UM - konwersja ≥aÒcuchÛw z UTF-8 do dowolnego kodowania obs≥ugiwanego przez XML::Encoding
+Summary(pl.UTF-8):   XML::UM - konwersja ≈Ça≈Ñcuch√≥w z UTF-8 do dowolnego kodowania obs≈Çugiwanego przez XML::Encoding
 Name:		perl-XML-UM
 Version:	0.01
 Release:	1
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The XML::UM Perl module provides methods to convert UTF-8 strings to
 any XML encoding that the XML::Encoding manpage supports.
 
-%description -l pl
-Modu≥ Perla XML::UM dostarcza metody do konwersji ≥aÒcuchÛw UTF-8 do
-dowolnego kodowania XML obs≥ugiwanego przez XML::Encoding.
+%description -l pl.UTF-8
+Modu≈Ç Perla XML::UM dostarcza metody do konwersji ≈Ça≈Ñcuch√≥w UTF-8 do
+dowolnego kodowania XML obs≈Çugiwanego przez XML::Encoding.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
