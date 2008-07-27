@@ -9,7 +9,7 @@ Summary:	XML::UM - convert UTF-8 strings to any encoding supported by XML::Encod
 Summary(pl.UTF-8):	XML::UM - konwersja łańcuchów z UTF-8 do dowolnego kodowania obsługiwanego przez XML::Encoding
 Name:		perl-XML-UM
 Version:	0.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
