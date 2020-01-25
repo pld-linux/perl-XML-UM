@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	UM
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::UM - convert UTF-8 strings to any encoding supported by XML::Encoding
 Summary(pl.UTF-8):	XML::UM - konwersja łańcuchów z UTF-8 do dowolnego kodowania obsługiwanego przez XML::Encoding
 Name:		perl-XML-UM
